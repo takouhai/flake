@@ -24,6 +24,7 @@
     pkgs.tldr
     pkgs.neovim
     pkgs.iotop
+    pkgs.du-dust
     # Fleek Bling
     pkgs.git
     pkgs.htop

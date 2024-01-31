@@ -22,6 +22,7 @@ packages:
     - tldr
     - neovim
     - iotop
+    - du-dust
 paths:
     - $HOME/bin
     - $HOME/.local/bin
