@@ -23,6 +23,7 @@
     pkgs.helix
     pkgs.tldr
     pkgs.neovim
+    pkgs.iotop
     # Fleek Bling
     pkgs.git
     pkgs.htop

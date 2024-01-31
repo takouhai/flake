@@ -21,6 +21,7 @@ packages:
     - helix
     - tldr
     - neovim
+    - iotop
 paths:
     - $HOME/bin
     - $HOME/.local/bin
