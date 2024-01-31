@@ -23,6 +23,28 @@ packages:
     - neovim
     - iotop
     - du-dust
+    - glances
+    - gping
+    - hexyl
+    - httpie
+    - jq
+    - hyperine
+    - lazygit
+    - lsd
+    - neofetch
+    - nnn
+    - onefetch
+    - oneko
+    - pinentry-curses
+    - pls
+    - ripgrep
+    - rustup
+    - shellcheck
+    - sl
+    - thefuck
+    - tmatrix
+    - xplr
+    - asciiquarium
 paths:
     - $HOME/bin
     - $HOME/.local/bin

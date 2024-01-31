@@ -25,6 +25,28 @@
     pkgs.neovim
     pkgs.iotop
     pkgs.du-dust
+    pkgs.glances
+    pkgs.gping
+    pkgs.hexyl
+    pkgs.httpie
+    pkgs.jq
+    pkgs.hyperine
+    pkgs.lazygit
+    pkgs.lsd
+    pkgs.neofetch
+    pkgs.nnn
+    pkgs.onefetch
+    pkgs.oneko
+    pkgs.pinentry-curses
+    pkgs.pls
+    pkgs.ripgrep
+    pkgs.rustup
+    pkgs.shellcheck
+    pkgs.sl
+    pkgs.thefuck
+    pkgs.tmatrix
+    pkgs.xplr
+    pkgs.asciiquarium
     # Fleek Bling
     pkgs.git
     pkgs.htop
