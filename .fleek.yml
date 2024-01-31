@@ -1,9 +1,9 @@
 aliases:
-    please: sudo
     fleeks: cd ~/.local/share/fleek
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
-    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
+    please: sudo
     ssh-agent-man: echo \"THEY'VE GIVEN YOU A NUMBER\" && eval `ssh-agent -s` ssh-add && echo \"AND TAKEN AWAY YOUR NAME\"
+    update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
 auto_gc: true
 bling: high
@@ -17,7 +17,7 @@ git:
     autopush: true
     enabled: true
 min_version: 0.8.4
-name: taco on fleek 
+name: taco on fleek
 overlays: {}
 packages:
     - helix
@@ -47,12 +47,13 @@ packages:
     - tmatrix
     - xplr
     - asciiquarium
+    - volta
 paths:
     - $HOME/bin
     - $HOME/.local/bin
 programs:
     - dircolors
-shell: zsh 
+shell: zsh
 systems:
     - arch: x86_64
       home: ""
