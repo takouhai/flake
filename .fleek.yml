@@ -28,7 +28,7 @@ packages:
     - hexyl
     - httpie
     - jq
-    - hyperine
+    - hyperfine
     - lazygit
     - lsd
     - neofetch

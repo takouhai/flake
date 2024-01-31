@@ -30,7 +30,7 @@
     pkgs.hexyl
     pkgs.httpie
     pkgs.jq
-    pkgs.hyperine
+    pkgs.hyperfine
     pkgs.lazygit
     pkgs.lsd
     pkgs.neofetch
