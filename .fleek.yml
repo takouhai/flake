@@ -47,7 +47,6 @@ packages:
     - tmatrix
     - xplr
     - asciiquarium
-    - volta
 paths:
     - $HOME/bin
     - $HOME/.local/bin

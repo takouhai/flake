@@ -47,7 +47,6 @@
     pkgs.tmatrix
     pkgs.xplr
     pkgs.asciiquarium
-    pkgs.volta
     # Fleek Bling
     pkgs.git
     pkgs.htop
