@@ -48,6 +48,7 @@ packages:
     - xplr
     - asciiquarium
     - volta
+    - oh-my-zsh
 paths:
     - $HOME/bin
     - $HOME/.local/bin

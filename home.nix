@@ -48,6 +48,7 @@
     pkgs.xplr
     pkgs.asciiquarium
     pkgs.volta
+    pkgs.oh-my-zsh
     # Fleek Bling
     pkgs.git
     pkgs.htop
