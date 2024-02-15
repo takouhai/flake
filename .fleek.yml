@@ -49,6 +49,7 @@ packages:
     - asciiquarium
     - volta
     - oh-my-zsh
+    - dog
 paths:
     - $HOME/bin
     - $HOME/.local/bin

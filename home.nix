@@ -49,6 +49,7 @@
     pkgs.asciiquarium
     pkgs.volta
     pkgs.oh-my-zsh
+    pkgs.dog
     # Fleek Bling
     pkgs.git
     pkgs.htop
