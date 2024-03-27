@@ -20,21 +20,23 @@ min_version: 0.8.4
 name: taco on fleek
 overlays: {}
 packages:
-    - helix
-    - tldr
-    - neovim
-    - iotop
+    - asciiquarium
+    - dog
     - du-dust
     - glances
     - gping
+    - helix
     - hexyl
     - httpie
-    - jq
     - hyperfine
+    - iotop
+    - jq
     - lazygit
     - lsd
     - neofetch
+    - neovim
     - nnn
+    - oh-my-zsh
     - onefetch
     - oneko
     - pinentry-curses
@@ -44,12 +46,10 @@ packages:
     - shellcheck
     - sl
     - thefuck
+    - tldr
     - tmatrix
-    - xplr
-    - asciiquarium
     - volta
-    - oh-my-zsh
-    - dog
+    - xplr
 paths:
     - $HOME/bin
     - $HOME/.local/bin

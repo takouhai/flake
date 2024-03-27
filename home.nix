@@ -20,21 +20,23 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.helix
-    pkgs.tldr
-    pkgs.neovim
-    pkgs.iotop
+    pkgs.asciiquarium
+    pkgs.dog
     pkgs.du-dust
     pkgs.glances
     pkgs.gping
+    pkgs.helix
     pkgs.hexyl
     pkgs.httpie
-    pkgs.jq
     pkgs.hyperfine
+    pkgs.iotop
+    pkgs.jq
     pkgs.lazygit
     pkgs.lsd
     pkgs.neofetch
+    pkgs.neovim
     pkgs.nnn
+    pkgs.oh-my-zsh
     pkgs.onefetch
     pkgs.oneko
     pkgs.pinentry-curses
@@ -44,12 +46,10 @@
     pkgs.shellcheck
     pkgs.sl
     pkgs.thefuck
+    pkgs.tldr
     pkgs.tmatrix
-    pkgs.xplr
-    pkgs.asciiquarium
     pkgs.volta
-    pkgs.oh-my-zsh
-    pkgs.dog
+    pkgs.xplr
     # Fleek Bling
     pkgs.git
     pkgs.htop
