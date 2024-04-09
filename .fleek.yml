@@ -42,7 +42,6 @@ packages:
     - pinentry-curses
     - pls
     - ripgrep
-    - rustup
     - shellcheck
     - sl
     - thefuck

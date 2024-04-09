@@ -42,7 +42,6 @@
     pkgs.pinentry-curses
     pkgs.pls
     pkgs.ripgrep
-    pkgs.rustup
     pkgs.shellcheck
     pkgs.sl
     pkgs.thefuck
