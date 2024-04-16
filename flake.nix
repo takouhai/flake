@@ -1,29 +1,16 @@
 {
-  # DO NOT EDIT: This file is managed by fleek. Manual changes will be overwritten.
-  description = "taco on fleek";
+  description = "taco eject fleek";
 
   inputs = {
     # Nixpkgs
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-
+    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
     # Home manager
     home-manager.url = "https://flakehub.com/f/nix-community/home-manager/0.1.tar.gz";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-
-    # Fleek
-    fleek.url = "https://flakehub.com/f/ublue-os/fleek/*.tar.gz";
-
     # Overlays
-    
-
   };
 
-  outputs = { self, nixpkgs, home-manager, fleek, ... }@inputs: {
-    
-     packages.x86_64-linux.fleek = fleek.packages.x86_64-linux.default;
-    
-    # Available through 'home-manager --flake .#your-username@your-hostname'
-    
+  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
     homeConfigurations = {
     
       "taco@myna" = home-manager.lib.homeManagerConfiguration {
@@ -39,16 +26,9 @@
           # Host Specific configs
           ./myna/taco.nix
           ./myna/custom.nix
-          # self-manage fleek
-          {
-            home.packages = [
-              fleek.packages.x86_64-linux.default
-            ];
-          }
           ({
            nixpkgs.overlays = [];
           })
-
         ];
       };
       
@@ -65,12 +45,6 @@
           # Host Specific configs
           ./fishcrow/taco.nix
           ./fishcrow/custom.nix
-          # self-manage fleek
-          {
-            home.packages = [
-              fleek.packages.x86_64-linux.default
-            ];
-          }
           ({
            nixpkgs.overlays = [];
           })
