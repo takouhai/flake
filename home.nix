@@ -1,15 +1,21 @@
-{ config, pkgs, misc, ... }: {
+{
+  config,
+  pkgs,
+  misc,
+  ...
+}: {
   nixpkgs = {
     config = {
       allowUnfree = true;
-      allowUnfreePredicate = (_: true);
+      allowUnfreePredicate = _: true;
     };
   };
-  
+
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     pkgs.asciiquarium
+    pkgs.alejandra
     pkgs.btop
     pkgs.cheat
     pkgs.dog
@@ -51,9 +57,9 @@
     pkgs.vscode
     pkgs.xplr
     pkgs.yq-go
-    (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
+    (pkgs.nerdfonts.override {fonts = ["FiraCode"];})
   ];
-  fonts.fontconfig.enable = true; 
-  home.stateVersion = "23.11"; 
+  fonts.fontconfig.enable = true;
+  home.stateVersion = "23.11";
   programs.home-manager.enable = true;
 }

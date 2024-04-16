@@ -10,14 +10,18 @@
     # Overlays
   };
 
-  outputs = { self, nixpkgs, home-manager, ... }@inputs: {
+  outputs = {
+    self,
+    nixpkgs,
+    home-manager,
+    ...
+  } @ inputs: {
     homeConfigurations = {
-    
       "taco@myna" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
-        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
+        extraSpecialArgs = {inherit inputs;}; # Pass flake inputs to our config
         modules = [
-          ./home.nix 
+          ./home.nix
           ./path.nix
           ./shell.nix
           ./user.nix
@@ -26,17 +30,17 @@
           # Host Specific configs
           ./myna/taco.nix
           ./myna/custom.nix
-          ({
-           nixpkgs.overlays = [];
-          })
+          {
+            nixpkgs.overlays = [];
+          }
         ];
       };
-      
+
       "taco@fishcrow" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
-        extraSpecialArgs = { inherit inputs; }; # Pass flake inputs to our config
+        extraSpecialArgs = {inherit inputs;}; # Pass flake inputs to our config
         modules = [
-          ./home.nix 
+          ./home.nix
           ./path.nix
           ./shell.nix
           ./user.nix
@@ -45,13 +49,11 @@
           # Host Specific configs
           ./fishcrow/taco.nix
           ./fishcrow/custom.nix
-          ({
-           nixpkgs.overlays = [];
-          })
-
+          {
+            nixpkgs.overlays = [];
+          }
         ];
       };
-      
     };
   };
 }

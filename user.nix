@@ -1,6 +1,10 @@
-{ pkgs, misc, ... }: {
+{
+  pkgs,
+  misc,
+  ...
+}: {
   programs.zsh.oh-my-zsh = {
     enable = true;
-    plugins = [ "git" "thefuck" "volta" "rust" "rvm" "zoxide"];
+    plugins = ["git" "thefuck" "volta" "rust" "rvm" "zoxide"];
   };
 }

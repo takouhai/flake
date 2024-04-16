@@ -1,6 +1,10 @@
-{ pkgs, misc, ... }: {
- home.sessionPath = [ 
+{
+  pkgs,
+  misc,
+  ...
+}: {
+  home.sessionPath = [
     "$HOME/bin"
     "$HOME/.local/bin"
- ];
+  ];
 }
