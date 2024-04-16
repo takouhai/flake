@@ -19,6 +19,10 @@ $ apply-$(hostname)
 ```
 
 Your actual aliases are listed below:
+    apply-fishcrow = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@fishcrow";
+
+    apply-myna = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@myna";
+
     fleeks = "cd ~/.local/share/fleek";
 
     latest-fleek-version = "nix run https://getfleek.dev/latest.tar.gz -- version";

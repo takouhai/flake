@@ -1,4 +1,6 @@
 aliases:
+    apply-fishcrow: nix run --impure home-manager/master -- -b bak switch --flake .#taco@fishcrow
+    apply-myna: nix run --impure home-manager/master -- -b bak switch --flake .#taco@myna
     fleeks: cd ~/.local/share/fleek
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
     please: sudo
@@ -9,13 +11,13 @@ auto_gc: true
 bling: high
 blocklist: []
 byo_git: false
-ejected: false
+ejected: true
 flakedir: .local/share/fleek
 git:
-    autocommit: true
-    autopull: true
-    autopush: true
-    enabled: true
+    autocommit: false
+    autopull: false
+    autopush: false
+    enabled: false
 min_version: 0.8.4
 name: taco on fleek
 overlays: {}
