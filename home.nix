@@ -14,12 +14,13 @@
   # packages are just installed (no configuration applied)
   # programs are installed and configuration applied to dotfiles
   home.packages = [
-    pkgs.asciiquarium
     pkgs.alejandra
+    pkgs.asciiquarium
     pkgs.btop
     pkgs.cheat
     pkgs.dog
     pkgs.du-dust
+    pkgs.direnv
     pkgs.fzf
     pkgs.git
     pkgs.github-cli
@@ -34,10 +35,9 @@
     pkgs.hyperfine
     pkgs.iotop
     pkgs.jq
-    pkgs.jq
-    pkgs.just
     pkgs.lazygit
     pkgs.lsd
+    pkgs.monaspace
     pkgs.neofetch
     pkgs.neovim
     pkgs.nnn
@@ -46,7 +46,6 @@
     pkgs.oneko
     pkgs.pinentry-curses
     pkgs.pls
-    pkgs.ripgrep
     pkgs.ripgrep
     pkgs.shellcheck
     pkgs.sl
@@ -57,7 +56,6 @@
     pkgs.vscode
     pkgs.xplr
     pkgs.yq-go
-    (pkgs.nerdfonts.override {fonts = ["FiraCode"];})
   ];
   fonts.fontconfig.enable = true;
   home.stateVersion = "23.11";
