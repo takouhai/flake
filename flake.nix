@@ -5,7 +5,7 @@
     # Nixpkgs
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
     # Home manager
-    home-manager.url = "https://flakehub.com/f/nix-community/home-manager/0.1.tar.gz";
+    home-manager.url = "https://flakehub.com/f/nix-community/home-manager/0.2311.3180.tar.gz";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
     # Overlays
   };
