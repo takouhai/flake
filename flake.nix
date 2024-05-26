@@ -34,7 +34,7 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
-	  lix-module.nixosModules.default
+          lix-module.nixosModules.default
           # Host Specific config
           ./myna/taco.nix
           {
@@ -53,7 +53,7 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
-	  lix-module.nixosModules.default
+          lix-module.nixosModules.default
           # Host Specific config
           ./fishcrow/taco.nix
           {
