@@ -2,17 +2,24 @@
   description = "taco eject fleek";
 
   inputs = {
-    # Nixpkgs
-    nixpkgs.url = "github:nixos/nixpkgs/nixos-23.11";
+    lix = {
+      url = "git+https://git.lix.systems/lix-project/lix?ref=refs/tags/2.90-beta.1";
+      flake = false;
+    };
+    lix-module = {
+      url = "git+https://git.lix.systems/lix-project/nixos-module";
+      inputs.lix.follows = "lix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     # Home manager
-    home-manager.url = "https://flakehub.com/f/nix-community/home-manager/0.2311.3180.tar.gz";
+    home-manager.url = "https://github.com/nix-community/home-manager/archive/master.tar.gz";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-    # Overlays
   };
 
   outputs = {
     self,
     nixpkgs,
+    lix-module,
     home-manager,
     ...
   } @ inputs: {
@@ -27,9 +34,9 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
-          # Host Specific configs
+	  lix-module.nixosModules.default
+          # Host Specific config
           ./myna/taco.nix
-          ./myna/custom.nix
           {
             nixpkgs.overlays = [];
           }
@@ -46,9 +53,9 @@
           ./user.nix
           ./aliases.nix
           ./programs.nix
-          # Host Specific configs
+	  lix-module.nixosModules.default
+          # Host Specific config
           ./fishcrow/taco.nix
-          ./fishcrow/custom.nix
           {
             nixpkgs.overlays = [];
           }
