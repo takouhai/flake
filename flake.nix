@@ -2,17 +2,20 @@
   description = "taco eject fleek";
 
   inputs = {
+    nixpkgs.url = "nixpkgs/master";
+
     lix = {
       url = "git+https://git.lix.systems/lix-project/lix?ref=refs/tags/2.90-beta.1";
       flake = false;
     };
+
     lix-module = {
       url = "git+https://git.lix.systems/lix-project/nixos-module";
       inputs.lix.follows = "lix";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     # Home manager
-    home-manager.url = "https://github.com/nix-community/home-manager/archive/master.tar.gz";
+    home-manager.url = "github:nix-community/home-manager/master";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
