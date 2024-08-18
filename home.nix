@@ -18,7 +18,7 @@
     pkgs.asciiquarium
     pkgs.btop
     pkgs.cheat
-    pkgs.dog
+    pkgs.dogdns
     pkgs.du-dust
     pkgs.direnv
     pkgs.fzf
