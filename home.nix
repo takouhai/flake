@@ -18,9 +18,10 @@
     pkgs.asciiquarium
     pkgs.btop
     pkgs.cheat
+    pkgs.direnv
     pkgs.dogdns
     pkgs.du-dust
-    pkgs.direnv
+    pkgs.fastfetch
     pkgs.fzf
     pkgs.git
     pkgs.github-cli
@@ -36,8 +37,6 @@
     pkgs.jq
     pkgs.lazygit
     pkgs.lsd
-    pkgs.monaspace
-    pkgs.neofetch
     pkgs.neovim
     pkgs.nnn
     pkgs.oh-my-zsh
