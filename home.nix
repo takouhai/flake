@@ -33,7 +33,6 @@
     pkgs.htop
     pkgs.httpie
     pkgs.hyperfine
-    pkgs.iotop
     pkgs.jq
     pkgs.lazygit
     pkgs.lsd
@@ -43,7 +42,6 @@
     pkgs.nnn
     pkgs.oh-my-zsh
     pkgs.onefetch
-    pkgs.oneko
     pkgs.pinentry-curses
     pkgs.pls
     pkgs.ripgrep
@@ -53,7 +51,6 @@
     pkgs.tldr
     pkgs.tmatrix
     pkgs.volta
-    pkgs.vscode
     pkgs.xplr
     pkgs.yq-go
   ];
