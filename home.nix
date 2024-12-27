@@ -38,6 +38,8 @@
     pkgs.lazygit
     pkgs.lsd
     pkgs.neovim
+    pkgs.nil
+    pkgs.nixd
     pkgs.nnn
     pkgs.oh-my-zsh
     pkgs.onefetch
@@ -46,14 +48,14 @@
     pkgs.ripgrep
     pkgs.shellcheck
     pkgs.sl
+    pkgs.tealdeer
     pkgs.thefuck
-    pkgs.tldr
     pkgs.tmatrix
     pkgs.volta
     pkgs.xplr
     pkgs.yq-go
   ];
   fonts.fontconfig.enable = true;
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.11";
   programs.home-manager.enable = true;
 }

@@ -13,7 +13,7 @@
       add-nowhitespace = "!git diff -U0 -w --no-color | git apply --cached --ignore-whitespace --unidiff-zero -";
     };
     userName = "taco";
-    userEmail = "daniel@tacowolf.net";
+    userEmail = "gpg@tacowolf.net";
     extraConfig = {
       feature.manyFiles = true;
       init.defaultBranch = "main";
