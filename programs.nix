@@ -1,6 +1,4 @@
 {
-  pkgs,
-  misc,
   ...
 }: {
   programs.atuin.enable = true;

@@ -20,7 +20,6 @@
   };
 
   outputs = {
-    self,
     nixpkgs,
     lix-module,
     home-manager,

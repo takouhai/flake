@@ -1,6 +1,4 @@
 {
-  pkgs,
-  misc,
   ...
 }: {
   home.sessionPath = [

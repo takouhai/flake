@@ -1,6 +1,4 @@
 {
-  pkgs,
-  misc,
   ...
 }: {
   programs.zsh.oh-my-zsh = {

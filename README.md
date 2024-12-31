@@ -19,3 +19,13 @@ for example:
 $ apply-myna
 ```
 on `myna`.
+
+i also added an alias that automatically applies the flake if you have it checked out at `~/.flake`.
+
+```bash
+$ apply-flake
+```
+
+ymmv, ianal.
+
+good luck, nix user who inevitably stumbles upon this while finding an existing config that works.

@@ -1,6 +1,4 @@
 {
-  pkgs,
-  misc,
   ...
 }: {
   home.username = "taco";
