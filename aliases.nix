@@ -10,9 +10,6 @@
     "please" = "sudo";
     "ssh-agent-man" = "echo \"THEY'VE GIVEN YOU A NUMBER\" && eval `ssh-agent -s` ssh-add && echo \"AND TAKEN AWAY YOUR NAME\"";
 
-    # bat --plain for unformatted cat
-    catp = "bat -p";
-
     # replace cat with bat
     cat = "bat";
 
