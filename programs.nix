@@ -1,6 +1,4 @@
-{
-  ...
-}: {
+{...}: {
   programs.atuin.enable = true;
   programs.atuin.enableZshIntegration = true;
   programs.eza.enable = true;
