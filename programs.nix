@@ -5,6 +5,17 @@
   programs.bat.enable = true;
   programs.zoxide.enable = true;
   programs.starship.enable = true;
+  programs.hyfetch = {
+    enable = true;
+    settings = {
+      preset = "asexual";
+      mode = "rgb";
+      backend = "fastfetch";
+      color_align = {
+        mode = "horizontal";
+      };
+    };
+  };
   programs.git = {
     enable = true;
     aliases = {
