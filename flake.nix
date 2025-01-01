@@ -1,5 +1,5 @@
 {
-  description = "taco eject fleek";
+  description = "flake: taco's frosted flake configuration for making the terminal cool and usable";
 
   inputs = {
     lix = {
