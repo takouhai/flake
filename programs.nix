@@ -8,7 +8,7 @@
   programs.hyfetch = {
     enable = true;
     settings = {
-      preset = "asexual";
+      preset = "nonbinary";
       mode = "rgb";
       backend = "fastfetch";
       color_align = {
