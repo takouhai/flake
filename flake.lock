@@ -56,11 +56,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1745001336,
-        "narHash": "sha256-R4HuzrgYtOYBNmB3lfRxcieHEBO4uSfgHNz4MzWkZ5M=",
+        "lastModified": 1745016969,
+        "narHash": "sha256-nDK8Z+LsNWrUsQ1JjnndNB57lvCmvy2QZUoCakoJCcI=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "fc09cb7aaadb70d6c4898654ffc872f0d2415df9",
+        "rev": "67f60ebce88a89939fb509f304ac554bcdc5bfa6",
         "type": "github"
       },
       "original": {
@@ -104,19 +104,11 @@
         ]
       },
       "locked": {
-<<<<<<< HEAD
-        "lastModified": 1738176840,
-        "narHash": "sha256-NG3IRvRs3u3btVCN861FqHvgOwqcNT/Oy6PBG86F5/E=",
-        "ref": "refs/heads/main",
-        "rev": "621aae0f3cceaffa6d73a4fb0f89c08d338d729e",
-        "revCount": 133,
-=======
         "lastModified": 1742945498,
         "narHash": "sha256-MB/b/xcDKqaVBxJIIxwb81r8ZiGLeKEcqokATRRroo8=",
         "ref": "refs/heads/main",
         "rev": "fa69ae26cc32dda178117b46487c2165c0e08316",
         "revCount": 138,
->>>>>>> b07cbc4 (chore: update flakes)
         "type": "git",
         "url": "https://git.lix.systems/lix-project/nixos-module"
       },
@@ -175,11 +167,11 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1745016343,
-        "narHash": "sha256-BcW66C+0kxLBlo3BI+il/fBk/nwGN9sGF7m2SrMv9Do=",
+        "lastModified": 1745017843,
+        "narHash": "sha256-eu49YjZ9RNCplJzatnNGsAPE1JpxlCJPXv81skTng54=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "52c2d786407e7dd0f063d9743eac4d3a49d13505",
+        "rev": "f49675705431dea4b3b835c66d14d7188fc5c362",
         "type": "github"
       },
       "original": {
