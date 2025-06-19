@@ -9,9 +9,7 @@
     export XCURSOR_PATH=$XCURSOR_PATH:/usr/share/icons:~/.local/share/icons:~/.icons:~/.nix-profile/share/icons
   '';
   programs.zsh.initContent = ''
-  eval "$(pay-respects bash --alias)"
   eval "$(pay-respects zsh --alias)"
-  pay-respects fish --alias | source
   '';
   programs.zsh.enableCompletion = true;
   programs.zsh.enable = true;
