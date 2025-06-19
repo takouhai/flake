@@ -32,6 +32,7 @@
     pkgs.jq
     pkgs.lazygit
     pkgs.lsd
+    pkgs.ncdu
     pkgs.neovim
     pkgs.nil
     pkgs.nixd
