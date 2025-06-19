@@ -45,7 +45,7 @@
     pkgs.shellcheck
     pkgs.sl
     pkgs.tealdeer
-    pkgs.thefuck
+    pkgs.pay-respects
     pkgs.tmatrix
     pkgs.volta
     pkgs.xplr
