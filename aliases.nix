@@ -3,6 +3,7 @@
     "apply-crow" = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@crow";
     "apply-fishcrow" = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@fishcrow";
     "apply-ibis" = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@ibis";
+    "apply-toucan" = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@toucan";
     "apply-myna" = "nix run --impure home-manager/master -- -b bak switch --flake .#taco@myna";
     "flakes" = "cd ~/.flake";
     "apply-flake" = "cd ~/.flake && nix run --impure home-manager/master -- -b bak switch --flake .#taco@$(hostname) && cd -";

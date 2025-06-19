@@ -82,6 +82,26 @@
         ];
       };
 
+
+      "taco@toucan" = home-manager.lib.homeManagerConfiguration {
+        pkgs = nixpkgs.legacyPackages.x86_64-linux; # Home-manager requires 'pkgs' instance
+        extraSpecialArgs = {inherit inputs;}; # Pass flake inputs to our config
+        modules = [
+          ./home.nix
+          ./path.nix
+          ./shell.nix
+          ./user.nix
+          ./aliases.nix
+          ./programs.nix
+          lix-module.nixosModules.default
+          # Host Specific config
+          ./toucan/taco.nix
+          {
+            nixpkgs.overlays = [];
+          }
+        ];
+      };
+
       "taco@ibis" = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.x86_64-darwin; # Home-manager requires 'pkgs' instance
         extraSpecialArgs = {inherit inputs;}; # Pass flake inputs to our config
