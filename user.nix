@@ -1,6 +1,6 @@
 {...}: {
   programs.zsh.oh-my-zsh = {
     enable = true;
-    plugins = ["git" "thefuck" "volta" "rust" "rvm" "zoxide"];
+    plugins = ["git" "volta" "rust" "rvm" "zoxide"];
   };
 }
