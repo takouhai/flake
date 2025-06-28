@@ -45,7 +45,6 @@
     pkgs.shellcheck
     pkgs.sl
     pkgs.tealdeer
-    pkgs.pay-respects
     pkgs.tmatrix
     pkgs.volta
     pkgs.xplr
