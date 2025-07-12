@@ -1,4 +1,5 @@
-{pkgs, ...}: {
+{ pkgs, ... }:
+{
   nixpkgs = {
     config = {
       allowUnfree = true;
@@ -13,6 +14,7 @@
     pkgs.asciiquarium
     pkgs.btop
     pkgs.cheat
+    pkgs.cowsay
     pkgs.direnv
     pkgs.dogdns
     pkgs.du-dust
@@ -31,6 +33,7 @@
     pkgs.hyperfine
     pkgs.jq
     pkgs.lazygit
+    pkgs.lolcat
     pkgs.lsd
     pkgs.ncdu
     pkgs.neovim
@@ -41,6 +44,7 @@
     pkgs.onefetch
     pkgs.pinentry-curses
     pkgs.pls
+    pkgs.pokemonsay
     pkgs.ripgrep
     pkgs.shellcheck
     pkgs.sl
