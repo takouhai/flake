@@ -1,0 +1,27 @@
+// zed settings
+//
+// for information on how to configure zed, see the zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// to see all of zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "vim_mode": true,
+  "ui_font_size": 14,
+  "buffer_font_size": 16,
+  "theme": {
+    "mode": "system",
+    "light": "Dracula Light (Alucard",
+    "dark": "Dracula Solid"
+  },
+  "buffer_font_family": "ComicShannsMono Nerd Font Mono",
+  "ui_font_family": "ComicShannsMono Nerd Font Mono",
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "agent": {
+    "enabled": false
+  }
+}
+
