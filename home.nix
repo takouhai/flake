@@ -37,6 +37,7 @@
     pkgs.ncdu
     pkgs.neovim
     pkgs.nil
+    pkgs.nix-output-monitor
     pkgs.nixd
     pkgs.nnn
     pkgs.oh-my-zsh
