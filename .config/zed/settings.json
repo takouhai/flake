@@ -7,21 +7,18 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "vim_mode": true,
-  "ui_font_size": 14,
-  "buffer_font_size": 16,
-  "theme": {
-    "mode": "system",
-    "light": "Dracula Light (Alucard",
-    "dark": "Dracula Solid"
-  },
+  "disable_ai": true,
   "format_on_save": "off",
-  "buffer_font_family": "ComicShannsMono Nerd Font Mono",
-  "ui_font_family": "ComicShannsMono Nerd Font Mono",
-  "features": {
-    "edit_prediction_provider": "none"
+  "remove_trailing_whitespace_on_save": true,
+  "show_whitespaces": "all",
+  "theme": {
+    "mode": "dark",
+    "light": "One Dark Pro",
+    "dark": "One Dark Pro"
   },
-  "agent": {
-    "enabled": false
-  }
+  "buffer_font_family": "ComicShannsMono Nerd Font Mono",
+  "buffer_font_size": 16,
+  "ui_font_family": "ComicShannsMono Nerd Font Mono",
+  "ui_font_size": 14,
+  "vim_mode": true
 }
