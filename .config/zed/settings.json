@@ -8,13 +8,19 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "disable_ai": true,
+  "features": {
+    "edit_prediction_provider": "none"
+  },
+  "agent": {
+    "enabled": false
+  },
   "format_on_save": "off",
   "remove_trailing_whitespace_on_save": true,
   "show_whitespaces": "all",
   "theme": {
     "mode": "dark",
-    "light": "One Dark Pro",
-    "dark": "One Dark Pro"
+    "light": "Dracula Pro (Blade)",
+    "dark": "Dracula Pro (Blade)"
   },
   "buffer_font_family": "ComicShannsMono Nerd Font Mono",
   "buffer_font_size": 16,
